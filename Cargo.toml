@@ -1,6 +1,11 @@
 [package]
 name = "char_fns"
 version = "0.1.0"
+license = "MIT/Apache-2.0"
 authors = ["Alex Shapiro <alexander.max.shapiro@gmail.com>"]
 
-[dependencies]
+description = "unicode character-indexed string manipulation"
+
+keywords = ["char", "unicode", "string"]
+readme = "README.md"
+repository = "https://github.com/alex-shapiro/char_fns"
