@@ -27,7 +27,6 @@ impl CharFns for str {
 
     fn char_replace(&self, index: usize, len: usize, text: &str) -> String {
         let (pre, remaining) = self.char_split(index);
-        println!("pre: '{}', remaining: '{}'", pre, remaining);
         let (_, post) = remaining.char_split(len);
         format!("{}{}{}", pre, text, post)
     }
